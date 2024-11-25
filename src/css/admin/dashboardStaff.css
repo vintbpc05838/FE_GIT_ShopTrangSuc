@@ -1,0 +1,96 @@
+/* Dashboard.css */
+*{
+    font-family: initial;
+}
+.dashboard-container-staff {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-menu-staff {
+    background-color: #292828;
+    height: 780px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 48px; 
+    color: #c5d67f; 
+    text-align: center; 
+    margin: 20px 0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.font{
+    font-size: 18px;
+    color: #f7e9e9;
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    padding: 10px;
+    border-radius: 15px;
+    /* Bo góc tròn */
+    cursor: pointer;
+    background-color: rgb(44, 42, 42);
+    transition: background-color 0.3s ease;
+    color: #eae5e5;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.menu-item:hover {
+    background-color: #737373;
+}
+
+.submenu {
+    padding-left: 20px;
+}
+.submenu-item {
+    padding: 8px 10px;
+    border-radius: 15px;
+    /* Bo góc tròn */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #d2d0d0;
+    text-align: left;
+    font-size: small;
+    /* Căn trái */
+}
+
+.submenu-item:hover {
+    background-color: #8c8c8c;
+}
+
+.active {
+    background-color: #dfcecd;
+    color: #000;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.menu i {
+    margin-right: 10px;
+}
+
+.caret-icon {
+    margin-left: auto; 
+}
+
+.hr{
+    color: #d8d8d8;
+}

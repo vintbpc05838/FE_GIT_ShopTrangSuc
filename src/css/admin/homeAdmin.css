@@ -1,0 +1,36 @@
+.homeAdmin-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .navbar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-item {
+    flex: 1;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .navbar-item .badge {
+    background-color: white;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .chart-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+
+  

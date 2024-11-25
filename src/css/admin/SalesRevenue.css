@@ -1,0 +1,148 @@
+/* SalesRevenueStyles.css */
+
+.sales-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sales-table-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.sales-font-title {
+    text-align: center;
+    font-size: 24px;
+    color: #7d4e57;
+    margin-bottom: 20px;
+}
+
+.sales-input-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sales-input-group div {
+    flex: 1;
+}
+
+.sales-input {
+    padding: 5px;
+    border: 1px solid #e3b6c0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.sales-button {
+    padding: 10px 20px;
+    background-color: #e27b7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.sales-button:hover {
+    background-color: #d55656;
+    transform: translateY(-2px);
+}
+
+.sales-button:focus {
+    outline: 2px solid #d27b7b;
+    outline-offset: 2px;
+}
+
+.sales-button:active {
+    transform: translateY(0);
+}
+
+.sales-label {
+    font-size: 14px;
+    text-align: left;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.sales-th, .sales-td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.sales-th {
+    background-color: #e1b5b3;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.sales-tr:hover {
+    background-color: #f4c1c0;
+}
+
+.sales-detail-button {
+    background-color: #5cb85c;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sales-detail-button:hover {
+    background-color: #4cae4c;
+}
+
+.sales-search-button {
+    margin-top: 28px;
+    display: flex;
+    gap: 10px;
+}
+
+.sales-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sales-pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+}
+
+.sales-pagination button:hover {
+    background-color: #0056b3;
+}
+
+.sales-pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.sales-pagination span {
+    margin: 0 10px;
+    font-size: 13px;
+}

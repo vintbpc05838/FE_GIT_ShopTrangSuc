@@ -1,0 +1,233 @@
+.bill-container{
+    padding: 20px;
+}
+.bill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.change-address-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.change-address-link:hover {
+    text-decoration: underline;
+}
+
+.left-section{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.bill-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bill-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bill-input,
+.bill-textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.center-section{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+.shipping-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shipping-options {
+    padding: 10px 0;
+}
+
+.shipping-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.shipping-fee {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.payment-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.payment-options {
+    padding: 10px 0;
+}
+
+.payment-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.promo-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.promo-options {
+    padding: 10px 0;
+}
+
+.promo-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+.promo-button:hover {
+    background-color: #0056b3;
+}
+.pay-button{
+    background-color: #ff8c00;
+    font-size: 13px;
+    padding: 5px;
+}
+.pay-button:hover{
+    background-color: #f09f3d;
+}
+
+.right-section-custom {
+    padding: 20px;
+    border-radius: 8px;
+    height: auto;
+}
+.product-list-custom {
+    max-height: 300px; 
+    overflow-y: auto;  
+    padding-right: 10px; 
+}
+
+.product-info-custom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-img-custom {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.product-details-custom {
+    flex: 1;
+}
+
+.price-custom {
+    white-space: nowrap; 
+    font-size: 15px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.order-title-custom {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+.product-info-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.product-img-custom {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details-custom {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: start;
+}
+
+.product-name-custom {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-size-custom,
+.product-quantity-custom {
+    font-size: 14px;
+    color: #666;
+}
+ 
+.order-summary-custom {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.total-custom {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.order-summary-custom p {
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.order-summary-custom span {
+    float: right;
+}
+.order-btn-custom {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.order-btn-custom:hover {
+    background-color: #2980b9;
+}

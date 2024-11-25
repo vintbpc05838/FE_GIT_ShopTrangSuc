@@ -1,0 +1,77 @@
+.ProductDelete {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.font-productDelete {
+    padding: 10px;
+    font-size: 16px;
+    color: #de2424;
+    text-align: left;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.images {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+td button {
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 13px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+
+.btn-restore {
+    background-color: #a3cded;
+    font-size: 13px;
+}
+
+
+.btn-restore:hover {
+    background-color: #030987;
+    color: #f9f9f9;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.hr-productDelete {
+    margin: 0;
+}

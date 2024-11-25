@@ -1,0 +1,208 @@
+.customer-container-customer {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.customer-card-customer {
+    background-color: #FDFDFD; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header-customer {
+    margin-top: 10px;
+    color: #000000; 
+    padding: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.customer-table-customer {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px; /* Kích thước chữ */
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.customers-th {
+    background-color: #ffe7f1 !important; 
+    color: #000000 !important; 
+    text-align: center;
+    padding: 10px; 
+    font-weight: bold; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; 
+}
+
+.customer-title-customer {
+    font-size: 22px;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.card-body-customer {
+    padding: 25px;
+}
+
+.filter-controls-customer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.filter-select-customer-custom, .filter-search-customer-custom {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+    padding: 12px 15px; /* Điều chỉnh padding */
+    height: 40px; /* Đặt chiều cao cụ thể */
+    border: 1px solid #c2bfbf;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    font-size: 14px; /* Tăng kích thước chữ */
+}
+
+.filter-select-customer-custom:last-child, .filter-search-customer-custom:last-child {
+    margin-right: 0;
+}
+
+.filter-select-customer-custom:focus, .filter-search-customer-custom:focus {
+    border-color: #b4b4b4;
+    box-shadow: 0 0 5px rgba(217, 190, 190, 0.5);
+}
+
+.customer-row-customer {
+    transition: background-color 0.3s;
+}
+
+.customer-row-customer:hover {
+    background-color: #D3D3D3; 
+}
+
+.btn-edit-customer {
+    background-color: #E27B7B; 
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+}
+
+.btn-edit-customer:hover {
+    background-color: #C0C0C0; 
+}
+
+.status-active-customer {
+    color: #90EE90; 
+}
+
+.status-inactive-customer {
+    color: #FF0000; 
+}
+
+.pagination-controls-customer {
+    display: flex;
+    margin-top: 20px; 
+    text-align: left;
+    margin-left: 85%; /* Đẩy sang bên phải */
+}
+
+.pagination-customer {
+    list-style: none; 
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.page-item-customer {
+    margin: 0 5px; 
+}
+
+.page-link-customer {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: transparent;
+    color: #007bff;
+}
+
+.page-link-customer:hover {
+    background-color: #f0f0f0;
+}
+
+.page-item-customer.disabled .page-link-customer {
+    background-color: #CCCCCC;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.page-item-customer.active .page-link-customer {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+
+
+.customer-details-customer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.customer-details-title-customer {
+    font-size: 1.2rem; 
+    color: #7D4E57; 
+    margin-bottom: 10px; 
+}
+
+.detail-section-customer {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.modal-header-customer {
+    background-color: #dec0ad; 
+    color: #FFFFFF; 
+}
+
+.modal-title-customer {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .filter-controls-customer {
+        flex-direction: column;
+    }
+
+    .filter-select-customer, .filter-search-customer {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .customer-details-customer {
+        flex-direction: column;
+    }
+
+    .detail-section-customer {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+

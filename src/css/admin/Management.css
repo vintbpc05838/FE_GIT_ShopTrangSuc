@@ -1,0 +1,147 @@
+.management-container {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+
+.management-title {
+    padding: 12px;
+    color: #a63636;
+    text-align: left;
+    font-size: 22px;
+    font-family: initial;
+}
+
+.management-search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.management-input {
+    padding: 8px; /* Điều chỉnh padding */
+    border: 1px solid #e3b6c0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.management-button {
+    padding: 12px 20px; 
+    height: 40px;
+    background-color: #e27b7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: 13px;
+}
+
+
+.management-button:hover {
+    background-color: #d55656;
+    transform: translateY(-2px);
+}
+
+.management-button:focus {
+    outline: 2px solid #d27b7b;
+    outline-offset: 2px;
+}
+
+.management-button:active {
+    transform: translateY(0);
+}
+
+.management-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.management-th, .management-td {
+    padding: 12px;
+    text-align: center;
+    font-size: 13,5px;
+}
+
+.management-th {
+    background-color: #f9e6d6 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.management-tr:hover {
+    background-color: #f4c1c0;
+}
+
+.management-modal {
+    border-radius: 10px;
+}
+
+.management-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.management-pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e27b7b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+}
+
+.management-pagination button:hover {
+    background-color: #d55656;
+}
+
+.management-pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.management-pagination span {
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+
+
+.form-label-management{
+    font-size: 16px;
+    font-family: initial;
+}
+
+.form-control-management{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    height: 40px;
+}
+
+
+.form-check-input-management{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.form-check-label-management{
+    font-size: 15px;
+    font-family: initial;
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}

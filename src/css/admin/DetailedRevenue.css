@@ -1,0 +1,89 @@
+.font-detailedrevenue {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; 
+    font-weight: bold;
+    color: #333;
+}
+
+.lable-detail{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.row-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.input-detail {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px; 
+    font-size: 13px;
+}
+
+.btn-detail-search {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e27b7b; 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    align-self: flex-start; 
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.btn-detail-search:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+    color: #ffffff;
+}
+
+.table-detail {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+.th-detail {
+    background-color: #007bff; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.tr-detail:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.tr-detail:hover {
+    background-color: #e9ecef; 
+}
+
+.td-detail {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn-search-detail {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c; 
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+}
+
+.btn-search-detail:hover {
+    background-color: #4cae4c;
+    color: #ffffff;
+}

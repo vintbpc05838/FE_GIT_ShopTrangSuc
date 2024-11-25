@@ -1,0 +1,59 @@
+.shopping-cart-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.shopping-cart-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.shopping-cart-content {
+  max-height: 150px;
+  overflow: hidden;
+}
+.card-text {
+  text-align: left;
+}
+.card-title{
+  text-align: left;
+}
+.input-quantity {
+  height: 30px; /* Chiều cao giống với nút */
+  padding: 5px; /* Khoảng đệm nhỏ cho input */
+  text-align: center; /* Căn giữa chữ */
+  border: 1px solid #ced4da; /* Đường viền cho input */
+  border-radius: 4px; /* Bo góc cho input */
+}
+
+.btn-reduce {
+  background-color: rgb(180, 179, 179);
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.btn-reduce:hover {
+  background-color: rgb(150, 150, 150); /* Màu nền khi hover */
+}
+
+.btn-increase {
+  background-color: rgb(180, 179, 179);
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.btn-increase:hover {
+  background-color: rgb(150, 150, 150); /* Màu nền khi hover */
+}

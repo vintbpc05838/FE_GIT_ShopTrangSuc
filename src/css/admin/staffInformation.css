@@ -1,0 +1,90 @@
+
+/* Information.js*/
+.staffInformation-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.staffInformation-card-title {
+    text-align: start;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.staffInformation-card {
+    background: linear-gradient(to right, #fadec4, #da99d0); 
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.staffInformation {
+    padding: 30px
+}
+
+.form-control-staffInformation {
+    width: 465px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-label-staffInformation {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.save-btn-staffInformation {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    width: 100px;
+    margin-top: 40px;
+}
+
+
+.xoa-btn-staffInformation{
+    background-color: indianred;
+    width: 130px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+
+.form-check-input-staffInformation{
+    margin: 10px;
+}
+
+.form-check-label-staffInformation{
+    font-size: 15px;
+    font-family: initial;
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}
+
+.form-check-staffInformation{
+    text-align: left;
+}
+
+.staff-doimatkhau{
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+
+.form-control-staff-information{
+    width: 380px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    height: 40px;
+}
+
+.form-label-staff-information{
+    font-size: 16px;
+    font-family: initial;
+}

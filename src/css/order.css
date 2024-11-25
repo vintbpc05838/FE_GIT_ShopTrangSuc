@@ -1,0 +1,115 @@
+.order-container {
+   margin-right: 50px;
+}
+.order-title {
+    text-align: start;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.order-card-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.order-card-header p{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.chat-btn {
+    margin-left: 10px; 
+    background-color: #fa961d;
+}
+.chat-btn:hover{
+    background-color: #eec089;
+}
+.order-card-header-content {
+    margin-left: auto;
+}
+
+.order-card-header-content p{
+    color: rgb(111, 150, 54);
+}
+.order-card-header-content i{
+    color: rgb(111, 150, 54);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.order-card-header-content .divider {
+    width: 1px; 
+    height: 20px; 
+    background-color: black; 
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.review-link {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+.review-link:hover {
+    text-decoration: underline; 
+}
+.order-img{
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+.order-card{
+    background-color: white; 
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.order-details{
+    padding: 10px;
+}
+.order-product-name, .order-quantity {
+    font-size: 15px;
+    text-align: start;
+}
+.order-date, .order-price {
+    margin-top: auto; 
+    text-align: end;
+    font-size: 14px;
+}   
+.order-total{
+    margin-top: auto; 
+    text-align: end;
+    color: red;
+    font-size: 17px;
+}
+.receive-btn{
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    width: auto;
+}
+.receive-btn:hover{
+    background-color: #ee9b36;
+}
+.cancel-btn{
+    background-color: red;
+    border-color: red;
+    width: 50px;
+}
+.cancel-btn:hover{
+    background-color: rgb(245, 92, 92);
+}
+.refund-btn{
+    border: 1px solid rgb(121, 119, 119);
+}
+.refund-btn:hover{
+    background-color:  rgb(128, 124, 124);
+}
+/* .order-card-footer{
+    background-color: rgb(250, 241, 230);
+} */
+.order-card-footer button{
+    margin-bottom: 10px;
+}

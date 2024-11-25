@@ -1,0 +1,139 @@
+
+.Cancellation {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .font-cancellation {
+    padding: 12px;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+  
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  td button {
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 13px;
+    transition: background-color 0.3s, opacity 0.3s;
+  }
+  
+  /* .btn-add {
+    background-color: #93f493; 
+    width:130px;
+    margin-right: 10px;
+    height: 40px;
+    font-size: 13px;
+  }
+  
+  .btn-edit {
+    background-color: #eddaa3; 
+    font-size: 13px;
+  }
+  
+  .btn-delete {
+    background-color: #e3adad; 
+    width:90px;
+    height: 40px;
+    font-size: 13px;
+  } */
+  
+  /* .btn-confimdelete{
+    background-color: #e3adad; 
+    width:130px;
+    height: 40px;
+    font-size: 13px;
+  } */
+  
+  /* Hover effects */
+  /* .btn-add:hover {
+    background-color: #218838;
+    color: #f9f9f9;
+  }
+  
+  .btn-edit:hover {
+    background-color: #e0a800; 
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+    color: #f9f9f9;
+  }
+  
+  .btn-confimdelete:hover {
+    background-color: #c82333;
+    color: #f9f9f9;
+  } */
+  
+  
+  /* button:hover {
+    opacity: 0.8;
+  } */
+  
+  
+ 
+  
+  .hr-cancellation{
+    margin: 0;
+  }
+  
+  
+  .nav-cancellation {
+    position: relative;
+    padding: 20px 0; 
+    margin-top: 20px; 
+  }
+  
+  .pagination {
+    justify-content: flex-end;
+  }
+  
+  .page-item {
+    margin: 0 5px; 
+  }
+  
+  .page-link {
+    border-radius: 0.3rem; 
+    padding: 5px 10px; 
+    color: #000000; 
+  }
+  
+  
+  
+  

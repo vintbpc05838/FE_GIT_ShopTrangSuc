@@ -1,0 +1,263 @@
+@charset "UTF-8";
+.body{
+	background-color: #fff;
+}
+/* .logo {
+	display: flex;
+	justify-content: center;
+}
+.header-top {
+	background-image: url('../images/bg.jpg');
+	height: 200px;
+}
+
+.header-bottom .banner {
+	padding-bottom: 10px;
+}
+
+.header-bottom .container {
+	margin-top: 10px;
+	padding-top: 10px;
+} */
+
+.TopList {
+	margin-left: 50px;
+}
+
+.TopList {
+    margin-left: 50px;
+}
+
+.TopList .card {
+    overflow: hidden;
+    border: none;
+}
+
+.TopList .card-img-top {
+    max-width: 80%;
+    border-radius: 0;
+    transition: transform 0.3s ease-in-out;
+    height: auto;
+}
+
+.TopList .category-card:hover .card-img-top {
+    transform: scale(1.1); 
+}
+*/ .NewProduct .header-title {
+	text-align: left;
+}
+
+.NewProduct .card {
+	border: none;
+}
+
+.NewProduct .product-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.NewProduct .product-image {
+	position: relative;
+}
+
+.NewProduct .product-actions {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.NewProduct .product-card:hover .product-actions {
+	opacity: 1;
+}
+
+.NewProduct .product-card:hover .card-img-top {
+	opacity: 0.5;
+}
+
+.DealProduct {
+	background: linear-gradient(to right, #ff9a9e, #fad0c4);
+	padding: 50px 0;
+}
+
+.DealProduct .header-title {
+	text-align: left;
+}
+
+.DealProduct .btn-secondary {
+	background-color: #ccc;
+	border-color: #ccc;
+	color: #fff;
+	font-size: 1.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	padding: 0.5rem;
+}
+
+.DealProduct .btn-secondary:hover {
+	background-color: #999;
+	border-color: #999;
+}
+
+.AllProdudct {
+	padding: 50px 0;
+}
+
+.NewProduct .card {
+	border: none;
+}
+
+.AllProdudct .product-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.AllProdudct .product-image {
+	position: relative;
+}
+
+.AllProdudct .product-actions {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.AllProdudct .product-card:hover .product-actions {
+	opacity: 1;
+}
+
+.AllProdudct .product-card:hover .card-img-top {
+	opacity: 0.5;
+}
+
+.TopNews-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+
+.TopNews-item {
+	border-radius: 8px;
+	overflow: hidden;
+	margin: 10px;
+	width: 90%;
+	max-width: 450px;
+}
+
+.TopNews-content {
+	text-align: start;
+}
+
+.TopProduct {
+	background-image: url('https://t4.ftcdn.net/jpg/02/92/56/91/360_F_292569116_Phht4uRj1YIuLFgBhrLu8171npBOcJcr.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.TopProduct .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.TopProduct .card {
+	border: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.TopProduct .card-title {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.TopProduct .card-text {
+	font-size: 1rem;
+}
+
+.TopProduct .text-muted {
+	color: #6c757d !important;
+}
+
+.product-image {
+	position: relative;
+}
+
+.product-actions {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-actions {
+	opacity: 1;
+}
+
+.product-card:hover .card-img-top {
+	opacity: 0.5;
+}
+
+.custom-footer {
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 380px; /* Giảm chiều cao */
+    padding: 20px 0; /* Thêm padding nếu cần */
+}
+
+.footer img {
+	max-width: 250px;
+}
+
+.footer h5 {
+	font-size: 1.5rem;
+	/* margin-bottom: 20px; */
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footer .col-md-4 {
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer .col-md-4:last-child {
+	border-right: none;
+}
+
+.footer .list-unstyled li {
+	margin-bottom: 10px;
+}
+
+.footer .list-unstyled li a {
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s;
+}
+
+.footer .list-unstyled li a:hover {
+	color: #ccc;
+}
+
+.social-icons {
+	margin-top: 15px;
+}
+
+.social-icons a {
+	margin-right: 15px;
+	transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+	transform: scale(1.1);
+}

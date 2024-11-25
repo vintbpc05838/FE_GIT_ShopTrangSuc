@@ -1,0 +1,134 @@
+.create-orders-page {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.create-order-tabs-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.create-order-tab-btn {
+  flex: 1;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+  background-color: #f9e6d6;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  margin: 0 5px;
+}
+
+.create-order-tab-btn.active {
+  color: #fff;
+  background-color: #e27b7b;
+  border-color: #e27b7b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-order-tab-btn:hover {
+  background-color: #e27b7b;
+  color: #fff;
+  border-color: #e27b7b;
+}
+
+.search-bar-container {
+  display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-bottom: 18px; /* Khoảng cách dưới cùng */
+}
+
+.search-id-order-input {
+  width: 300px; /* Chiều rộng cụ thể */
+  margin-right: 10px; /* Khoảng cách giữa input và nút */
+  padding: 5px; /* Padding bên trong */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+}
+.btn-search-order,
+.btn-search-fullname-customer {
+  padding: 6px 12px; /* Padding cho nút */
+  background-color: #e27b7b; /* Màu nền */
+  color: white; /* Màu chữ */
+  border: none; /* Không có đường viền */
+  border-radius: 4px; /* Bo góc */
+  cursor: pointer; /* Con trỏ khi di chuột */
+}
+.btn-search-order:hover,
+.btn-search-fullname-customer:hover {
+  background-color: #d55656;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.orders-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.orders-table tr:hover {
+  background-color: #e7f3f7;
+  cursor: pointer;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pagination-container button {
+  background-color: #e27b7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination-container button:hover:not(:disabled) {
+  background-color: #d55656;
+}
+
+.pagination-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-container span {
+  font-size: 16px;
+  color: #333;
+}
+/* Styling for the error text */
+.orders-error-text{
+  color: red;
+  font-size: 12px; /* Make the font size smaller */
+  margin-top: 5px; /* Add a bit of spacing between the input and the error text */
+  display: block; /* Ensure it appears on its own line below the input */
+}

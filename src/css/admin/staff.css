@@ -1,0 +1,369 @@
+.staff-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* Ensure the card itself is white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs-staff {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f5b7b1;
+}
+
+/* .nav-item-staff {
+    margin-right: 15px;
+} */
+
+.nav-link-staff {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    background-color: #f9e6d6;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 13px;
+}
+
+.nav-link-staff:hover {
+    background-color: #f3c1a1;
+    color: #000000;
+}
+
+.active-staff {
+    color: #000000;
+    border-color: #757171;
+}
+
+.tab-content-staff {
+    margin-top: 20px;
+}
+
+.table-staff1,
+.table-staff2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.th-staff,
+.td-staff {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.th-staff {
+    background-color: #f9e6d6;
+    font-weight: bold;
+    color: #000;
+}
+
+.td-staff {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 13,5px;
+}
+
+.tr-staff:hover {
+    background-color: #f1e4d2;
+}
+
+.font-staff1,
+.font-staff2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: left;
+    background-color: transparent;
+    /* Ensure no background color */
+}
+
+.rounded-pill-staff{
+    width: 80px;
+    font-size: 11px;
+}
+
+@media (max-width: 768px) {
+    .nav-link-staff {
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+
+    .th-staff,
+    .td-staff {
+        padding: 12px;
+    }
+}
+
+
+/* 
+.nav-staff {
+    bottom: 20px;
+    left: 85%;
+} */
+
+
+.pagination {
+    justify-content: flex-end;
+}
+
+.page-item {
+    margin: 0 5px;
+    font-size: 10px;
+}
+
+.page-link {
+    border-radius: 0.3rem;
+    padding: 3px 8px;
+}
+
+.form-control-staff-search{
+    /* width: 500px; */
+    margin-right: 20px; 
+    padding: 5px; 
+    font-size: 12px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    height: 40px;
+}
+
+.btn-add-staff {
+    width: 100px;
+    background-color: #e27b7b;
+    color: #fff; 
+    padding: 6px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 13px; 
+    transition: background-color 0.3s; 
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.btn-add-staff:hover {
+    background-color: #d55656;
+    height: 40px;
+    font-size: 13px; 
+    color: #ffffff;
+}
+
+.d-flex-staff {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin-bottom: 5px; 
+}
+
+
+/*Thêm*/
+.form-label-staff{
+    font-size: 16px;
+    font-family: initial;
+    
+}
+
+.form-control-staff{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    height: 40px;
+}
+
+.form-control-staff input[readonly] {
+    background-color: #e2e2e2; 
+    color: #666; 
+    cursor: not-allowed; 
+}
+
+.form-check-input-staff{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.form-check-label-staff{
+    font-size: 15px;
+    font-family: initial;
+    margin-bottom: 10px;
+    /* margin: 10px; */
+}
+
+.btn-save-staff{
+    background-color: #63d591;
+    color: #404040;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    width: 200px;
+    margin-left: auto;
+}
+
+.btn-save-staff:hover {
+    background-color: #0d6932;
+    height: 40px;
+    font-size: 13px; 
+    color: #ffffff;
+}
+
+
+
+/* model chi tiet*/
+
+.form-label-detailedStaff{
+    font-size: 15px;
+    font-family: initial;
+    
+}
+
+.form-control-detailedStaff{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 13px;
+    height: 30px;
+}
+
+.form-control-detailedStaff input[readonly] {
+    background-color: #e2e2e2; 
+    color: #666; 
+    cursor: not-allowed; 
+}
+
+.form-check-input-detailedStaff{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.form-check-label-detailedStaff{
+    font-size: 15px;
+    font-family: initial;
+    margin-bottom: 10px;
+
+}
+
+
+.btn-delete-detailedStaff {
+    background-color: #f3726b;
+    color: #404040;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 14px;
+    width: 100px;
+}
+
+.btn-delete-detailedStaff:hover {
+    background-color: #93260b;
+    height: 40px;
+    font-size: 14px; 
+    color: #ffffff;
+}
+
+.btn-edit-detailedStaff {
+    background-color: #dcc66d;
+    color: #404040;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    width: 100px;
+    margin-left: auto;
+}
+
+.btn-edit-detailedStaff:hover {
+    background-color: #a28005;
+    height: 40px;
+    font-size: 14px; 
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .d-flex-detailedStaff {
+        flex-direction: column;
+    }
+
+    .nav-pills {
+        border-right: none;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* .toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+} */
+
+
+.pagination-controls-staff {
+    display: flex;
+    margin-top: 20px; 
+    text-align: left;
+    margin-left: 85%; /* Đẩy sang bên phải */
+}
+
+.pagination-staff {
+    list-style: none; 
+    display: flex; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.page-item-staff {
+    margin: 0 5px; 
+}
+
+.page-link-staff {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: transparent;
+    color: #007bff;
+}
+
+.page-link-staff:hover {
+    background-color: #f0f0f0;
+}
+
+.page-item-staff.disabled .page-link-staff {
+    background-color: #CCCCCC;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.page-item-staff.active .page-link-staff {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+
+

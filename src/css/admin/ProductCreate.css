@@ -1,0 +1,133 @@
+.product-create-container {
+    max-width: 900px;
+    height:auto;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.product-create-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.product-create-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-create-column {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-create-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.product-create-input,
+.product-create-select,
+.product-create-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.product-create-input:focus,
+.product-create-select:focus,
+.product-create-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.product-create-textarea {
+    resize: vertical;
+}
+
+.product-create-select {
+    appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'><path fill='%23333' d='M2 0L0 2h4z'/></svg>") no-repeat right 10px center;
+    background-color: #f9f9f9;
+    background-size: 10px;
+}
+
+.product-create-preview {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-create-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.product-create-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product-create-btn-cancel {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.product-create-btn-cancel:hover {
+    background-color: #e0e0e0;
+}
+
+.product-create-btn-submit {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.product-create-btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.product-create-message {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+.error-product-create {
+    color: red;
+    font-style: italic;
+}
